@@ -5,13 +5,21 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-router-dom": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "@viewstools/animations": "^1.0.8-alpha.1",
+    "@viewstools/tables": "^1.0.8",
+    "emotion": "^10.0.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run dev\" \"npm run views\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start",
+    "views": "views-morph src --watch --as react-dom",
+    "prebuild": "views-morph src --as react-dom"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +29,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@viewstools/morph": "^18.1.6",
+    "@viewstools/e2e": "^0.1.3",
+    "concurrently": "^4.1.0"
+  }
 }
