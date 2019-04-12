@@ -1,0 +1,30 @@
+PrimaryActionButton Vertical
+  alignItems center
+  alignSelf < auto
+  backgroundColor #00ba0c
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderColor #00ba0c
+  borderStyle solid
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  borderWidth 1
+  cursor pointer
+  justifyContent center
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  onClick <
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 8
+  when <isHovered
+  backgroundColor #00c70d easeInOut
+  Text
+    color #ffffff
+    fontFamily Montserrat
+    fontSize 12
+    fontWeight 400
+    text < Primary Action Label
