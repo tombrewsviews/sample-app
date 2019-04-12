@@ -20,6 +20,14 @@
     }
   },
   "customArtboards": {
+    "IconButton": {
+      "width": 50,
+      "height": 50
+    },
+    "IconTextButton": {
+      "width": 250,
+      "height": 50
+    },
     "PrimaryActionButton": {
       "width": 250,
       "height": 50

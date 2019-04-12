@@ -1,0 +1,32 @@
+IconTextButton Horizontal
+  alignItems center
+  alignSelf < auto
+  backgroundColor rgba(255, 170, 0, 0)
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderColor #d8d8d8
+  borderStyle solid
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  borderWidth 1
+  cursor pointer
+  justifyContent center
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  onClick <
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 8
+  when <isHovered
+  backgroundColor #f2f2f2 easeInOut
+  Check
+    marginRight 8
+  Text
+    color #4b4b4b
+    fontFamily Montserrat
+    fontSize 12
+    fontWeight 400
+    text < Label

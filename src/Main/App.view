@@ -6,3 +6,5 @@ App Horizontal
   justifyContent center
   PrimaryActionButton
   SecondaryActionButton
+  IconTextButton
+  IconButton

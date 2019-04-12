@@ -1,0 +1,27 @@
+IconButton Horizontal
+  alignItems center
+  alignSelf < auto
+  backgroundColor rgba(255, 170, 0, 0)
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderColor #d8d8d8
+  borderStyle solid
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  borderWidth 1
+  cursor pointer
+  justifyContent center
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  onClick <
+  paddingBottom 4
+  paddingLeft 4
+  paddingRight 4
+  paddingTop 4
+  when <isHovered
+  backgroundColor #f2f2f2 easeInOut
+  Check
+    height 24
+    width 24
