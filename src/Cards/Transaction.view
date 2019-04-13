@@ -13,6 +13,8 @@ Transaction Horizontal
   paddingTop 8
   when <isHovered
   backgroundColor #e4f4fd easeInOut
+  BoldText
+    text <accountId RHF312389748
   BookingDateTime BaseText
     text <creditDebitIndicatorTime Debit
   BookingDateTime BaseText
