@@ -1,0 +1,21 @@
+Balance Horizontal
+  alignItems center
+  backgroundColor #f8f8f8
+  borderBottomLeftRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  justifyContent flexStart
+  marginTop 4
+  onClick <
+  paddingBottom 8
+  paddingLeft 8
+  paddingRight 8
+  paddingTop 8
+  when <isHovered
+  backgroundColor #e4f4fd easeInOut
+  BalanceLabel BoldText
+    text Balance
+  Amount BaseText
+    text <amount 363660.18
+  Currency BaseText
+    text <currency EUR
