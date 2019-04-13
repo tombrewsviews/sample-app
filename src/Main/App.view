@@ -1,9 +1,9 @@
-App Horizontal
-  alignItems center
+App Vertical
+  alignItems spaceAround
   flexBasis auto
   flexGrow 1
   flexShrink 1
-  justifyContent center
+  justifyContent stretch
   PrimaryActionButton
   SecondaryActionButton
   IconTextButton
